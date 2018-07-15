@@ -69,7 +69,7 @@ final class MovementService: MovementServiceProtocol {
         }
     
         let position = objectService.currentPlayer.position
-        guard position.distance(to: destination) < 0.3 else {
+        guard position.distance(to: destination) < 3 else {
             perform(action: .move, point: destination)
             return
         }
