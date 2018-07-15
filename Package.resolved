@@ -1,0 +1,61 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "Commander",
+        "repositoryURL": "https://github.com/kylef/Commander.git",
+        "state": {
+          "branch": null,
+          "revision": "e5b50ad7b2e91eeb828393e89b03577b16be7db9",
+          "version": "0.8.0"
+        }
+      },
+      {
+        "package": "CZeroMQ",
+        "repositoryURL": "https://github.com/Evolution-App/CZeroMQ.git",
+        "state": {
+          "branch": "master",
+          "revision": "9e8c3c77c1aefebb060f3cb85a8e55784e02c64a",
+          "version": null
+        }
+      },
+      {
+        "package": "LineNoise",
+        "repositoryURL": "https://github.com/andybest/linenoise-swift.git",
+        "state": {
+          "branch": null,
+          "revision": "afc897c02b030af7333105c4fedcd843a8339238",
+          "version": "0.0.3"
+        }
+      },
+      {
+        "package": "Nimble",
+        "repositoryURL": "https://github.com/Quick/Nimble.git",
+        "state": {
+          "branch": null,
+          "revision": "9c1379fdcd58c4f2278aea5e029394ba9a2b8f07",
+          "version": "7.1.3"
+        }
+      },
+      {
+        "package": "Spectre",
+        "repositoryURL": "https://github.com/kylef/Spectre.git",
+        "state": {
+          "branch": null,
+          "revision": "e34d5687e1e9d865e3527dd58bc2f7464ef6d936",
+          "version": "0.8.0"
+        }
+      },
+      {
+        "package": "SwiftProtobuf",
+        "repositoryURL": "https://github.com/apple/swift-protobuf",
+        "state": {
+          "branch": null,
+          "revision": "ccfcd0059ec6df0e7972e33a3d2ecbf78f42f754",
+          "version": "1.0.3"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
