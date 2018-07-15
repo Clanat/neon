@@ -16,7 +16,9 @@ final class Application {
     static let current = Application()
     
     private let console = Console(playerService: ServiceLocator.playerService,
-                                  objectService: ServiceLocator.objectService)
+                                  objectService: ServiceLocator.objectService,
+                                  functionService: ServiceLocator.functionService,
+                                  movementService: ServiceLocator.movementService)
     
     static func run() {
         DispatchQueue.application.async {
