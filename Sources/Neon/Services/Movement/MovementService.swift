@@ -19,7 +19,7 @@ final class MovementService: MovementServiceProtocol {
     
     private lazy var updateTimer: DispatchSourceTimer = {
         let timer = DispatchSource.makeTimerSource(queue: DispatchQueue.application)
-        timer.schedule(deadline: .now(), repeating: .seconds(1), leeway: .milliseconds(100))
+        timer.schedule(deadline: .now(), repeating: .milliseconds(500), leeway: .milliseconds(100))
         timer.setEventHandler { [weak self] in
             self?.performUpdate()
         }
@@ -46,6 +46,7 @@ final class MovementService: MovementServiceProtocol {
     // MARK: - Private
     
     func stopMovement() {
+        pointsQueue.removeAll()
         perform(action: .idle, point: objectService.currentPlayer.position)
     }
     
