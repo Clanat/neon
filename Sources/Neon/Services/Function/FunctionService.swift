@@ -13,6 +13,8 @@ protocol FunctionServiceProtocol {
     func getActivePlayerPointer() throws -> UInt32
     func getMapId() throws -> UInt32
     func getObjects() throws -> WoWObjectsResult
+    
+    @discardableResult
     func clickToMove(action: ClickAction, point: Vector3, targetGuid: UInt64, precision: Float32) throws -> Bool
 }
 
@@ -57,6 +59,7 @@ final class FunctionService: FunctionServiceProtocol {
         return result
     }
     
+    @discardableResult
     func clickToMove(action: ClickAction, point: Vector3, targetGuid: UInt64, precision: Float32) throws -> Bool {
         var query = FunctionQuery()
         query.kind = .clickToMove

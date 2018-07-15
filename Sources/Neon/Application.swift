@@ -29,7 +29,7 @@ final class Application {
     
     private func setup() {
         ServiceLocator.apiService.connect()
-        ServiceLocator.apiService
+        ServiceLocator.movementService.start()
     }
     
     private func run() {
