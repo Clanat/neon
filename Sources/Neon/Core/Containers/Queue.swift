@@ -35,4 +35,8 @@ class Queue<Element> {
         
         return elements.removeFirst()
     }
+    
+    func removeAll() {
+        elements.removeAll()
+    }
 }
