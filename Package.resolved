@@ -12,29 +12,11 @@
       },
       {
         "package": "CZeroMQ",
-        "repositoryURL": "https://github.com/Evolution-App/CZeroMQ.git",
-        "state": {
-          "branch": "master",
-          "revision": "9e8c3c77c1aefebb060f3cb85a8e55784e02c64a",
-          "version": null
-        }
-      },
-      {
-        "package": "LineNoise",
-        "repositoryURL": "https://github.com/andybest/linenoise-swift.git",
+        "repositoryURL": "https://github.com/Zewo/CZeroMQ.git",
         "state": {
           "branch": null,
-          "revision": "afc897c02b030af7333105c4fedcd843a8339238",
-          "version": "0.0.3"
-        }
-      },
-      {
-        "package": "Nimble",
-        "repositoryURL": "https://github.com/Quick/Nimble.git",
-        "state": {
-          "branch": null,
-          "revision": "9c1379fdcd58c4f2278aea5e029394ba9a2b8f07",
-          "version": "7.1.3"
+          "revision": "d7630758ece813c8a707f8630ba34607e0318590",
+          "version": "1.0.3"
         }
       },
       {
