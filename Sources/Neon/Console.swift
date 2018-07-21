@@ -44,7 +44,7 @@ final class Console {
  \\  \\:\\~~\\~~\\/ \\  \\:\\/:/ /:/ \\  \\:\\ /  /:/ \\  \\:\\~~\\~~\\/
   \\  \\:\\  ~~~   \\  \\::/ /:/   \\  \\:\\  /:/   \\  \\:\\  ~~~
    \\  \\:\\        \\  \\:\\/:/     \\  \\:\\/:/     \\  \\:\\
-    \\  \\:\\        \\  \\::/       \\  \\ ::/       \\  \\:\\
+    \\  \\:\\        \\  \\::/       \\  \\::/       \\  \\:\\
      \\__\\/         \\__\\/         \\__\\/         \\__\\/
 """
         print(logo)
@@ -53,13 +53,13 @@ final class Console {
         isRunning = true
         queue.async {
             while self.isRunning {
+                print(" ⚡ ", terminator: "")
                 self.processInput()
             }
         }
     }
     
     private func processInput() {
-        print("$ ", terminator: "")
         guard let text = readLine() else {
             return
         }
@@ -71,7 +71,6 @@ final class Console {
         catch {
             print(error)
         }
-        print("")
     }
     
     private func createConsoleGroup() -> Group {
