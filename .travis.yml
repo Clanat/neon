@@ -6,7 +6,7 @@ install: swift package update
 before_install:
   - brew update
   - brew install zmq
-  - brew install danger
+  - gem install danger
 script:
   - bundle exec danger
   - swift build
