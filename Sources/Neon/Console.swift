@@ -9,7 +9,6 @@ import Dispatch
 import Commander
 
 final class Console {
-    
     private let queue: DispatchQueue
     private var isRunning: Bool = false
     
