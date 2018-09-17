@@ -3,6 +3,7 @@
 excluded:
   - Carthage/
   - Pods/
+  - .build/
 
 # Rules
 
@@ -15,7 +16,7 @@ opt_in_rules:
   - empty_string
   - explicit_init
   - first_where
-  - joined_default_parameter
+  - joined_default_parametersw
   - multiline_parameters
   - prohibited_super_call
   - sorted_first_last
