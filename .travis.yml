@@ -8,4 +8,3 @@ before_install:
   - brew install zmq
 script:
   - swift build
-  - swift test
