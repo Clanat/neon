@@ -16,7 +16,7 @@ opt_in_rules:
   - empty_string
   - explicit_init
   - first_where
-  - joined_default_parametersw
+  - joined_default_parameters
   - multiline_parameters
   - prohibited_super_call
   - sorted_first_last
