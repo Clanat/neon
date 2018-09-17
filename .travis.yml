@@ -8,5 +8,5 @@ before_install:
   - brew install zmq
   - gem install danger
 script:
-  - bundle exec danger
+  - danger
   - swift build
