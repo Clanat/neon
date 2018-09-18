@@ -27,8 +27,7 @@ class Queue<Element> {
         self.elements += elements
     }
     
-    @discardableResult
-    func dequeue() -> Element? {
+    @discardableResult func dequeue() -> Element? {
         guard !elements.isEmpty else {
             return nil
         }
