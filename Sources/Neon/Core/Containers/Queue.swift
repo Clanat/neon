@@ -27,7 +27,8 @@ class Queue<Element> {
         self.elements += elements
     }
     
-    @discardableResult func dequeue() -> Element? {
+    @discardableResult 
+    func dequeue() -> Element? {
         guard !elements.isEmpty else {
             return nil
         }
@@ -35,6 +36,7 @@ class Queue<Element> {
         return elements.removeFirst()
     }
     
+
     func removeAll() {
         elements.removeAll()
     }
