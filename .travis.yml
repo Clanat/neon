@@ -6,7 +6,8 @@ install: swift package update
 before_install:
   - brew update
   - brew install zmq
-  - gem install danger
+  - brew reinstall swiftlint
+  - bundler install
 script:
-  - danger
+  - bundler exec danger
   - swift build

@@ -3,6 +3,10 @@
 excluded:
   - Carthage/
   - Pods/
+  - DerivedData/
+  - Neon.xcodeproj/
+  - .build/
+  - .idea/
 
 # Rules
 
