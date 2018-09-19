@@ -78,7 +78,7 @@ final class Console {
                 print("TODO")
             }
         }
-        
+
     }
     
     // MARK: - Player
@@ -115,6 +115,7 @@ final class Console {
                 Vector3(x: 1701.08, y: 1542.66, z: 124.253),
                 Vector3(x: 1699.85, y: 1550.55, z: 123.488),
                 Vector3(x: 1694.23, y: 1558.84, z: 123.374)
+
 
             ]
             
