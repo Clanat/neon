@@ -73,9 +73,12 @@ final class Console {
             consoleGroup.group("player", closure: createPlayerCommands)
             consoleGroup.group("dev", closure: createDevCommands)
             consoleGroup.command("help") {
+                
+                
                 print("TODO")
             }
         }
+        
     }
     
     // MARK: - Player
