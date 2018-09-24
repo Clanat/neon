@@ -27,11 +27,11 @@ class WoWObject {
     let type: WoWObjectType
     
     var position: Vector3 {
-        return (try? memoryService.read(Vector3.self, at: address + WoWObjectOffsets.position)) ?? .zero
+        return try! memoryService.read(Vector3.self, at: address + WoWObjectOffsets.position)
     }
     
     var rotation: Float32 {
-        return (try? memoryService.read(Float32.self, at: address + WoWObjectOffsets.rotation)) ?? 0
+        return try! memoryService.read(Float32.self, at: address + WoWObjectOffsets.rotation)
     }
     
     private var isValid: Bool {
